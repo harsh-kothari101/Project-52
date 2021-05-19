@@ -1,0 +1,154 @@
+
+    h1{color:rgba(255, 0, 0,0.7)}
+    h2{color:rgba(0,0,255,0.58)}
+    h3{color:rgba(132, 5, 170,0.5)}
+    h4{color:rgba(56, 197, 0,0.4)}
+    p{color:rgb(111, 69, 151)}
+
+    .canvas{
+        border:solid rgba(255, 0, 0,0.07);
+        border-radius: 5px;
+        background-color:rgba(255, 255, 0,0.1)
+    }
+    .canvas img{
+        display: flex;
+        border-radius:50px;
+        border:solid 5px black;
+        background-color: skyblue;
+    }
+    
+    .header{
+        display:block;
+        background-color:rgb(5, 233, 233);
+        border:double rgb(255, 255, 255) ;
+        border-radius:50pc;
+        border: size 50%;;
+    }
+    
+    .menu{
+        display:flex;
+        flex-direction: column;
+        background-color:rgb(96, 224, 224);
+        border:double black;
+        border-radius:10px;
+        font-weight:500px;
+        color:rgb(255, 49, 49);
+    }
+    .grid img{
+        display: flex;
+        flex: wrap;
+        justify-content: space-evenly;
+        border-radius:50px;
+        border:solid 5px black;
+        background-color: skyblue;
+    }
+    .grid{
+        background-color:rgba(133, 120, 250, 0.5);
+        border:double black;
+        border-radius: 0px;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: stretch;
+
+    }
+    .origami{
+        display:flex;
+        justify-content:center;
+        border:double 5px rgb(0, 0, 0);
+        border-radius: 2pc;
+        font-family: sans-serif;
+        background-color:rgb(223, 253, 255);
+        width: 500px;
+      
+    }
+   .points{
+       display:flex;
+       justify-content:space-between;
+       background-color:rgb(139, 230, 230);
+       color:rgb(0, 89, 124);
+       font-family:'Courier New', Courier, monospace; 
+       border:double rgb(0, 99, 99);
+       border-radius: 5px;
+    }
+
+    .steps{
+       display:block;
+       border:double;
+       justify-content: space-between;
+    }
+
+    .facts{
+         display: flex;
+        flex: wrap;
+        justify-content: space-evenly;
+        border-radius:50px;
+        border:solid 5px yellowgreen;
+        background-color: beige;
+    }
+
+    a:link{
+        color:white;
+    }
+    a:visited{
+        color:antiquewhite;
+    }
+
+    .origami:hover p{
+        opacity: 1;
+    }
+
+    .origami:hover img{
+        opacity: 0.15; 
+    }
+
+    .origami:hover{
+        transform: scale(0.95)
+    }
+
+    .insta{
+        position: relative;
+    }
+
+    .insta p{
+        position: absolute;
+        top: 40%;
+        left: 8%;
+        transform: translate(-100%,-50%) ;
+        font-size: smaller;
+        opacity: 0;
+    }
+    
+    .insta:hover p{
+        opacity: 2;
+    }
+        
+    .insta:hover img{
+        opacity: 0.2;
+    }
+
+    .git{
+        position: relative;
+    }
+
+    .git p{
+        position: absolute;
+        top: 40%;
+        left: 8%;
+        transform: translate(-100%,-50%) ;
+        font-size: smaller;
+        opacity: 0;
+    }
+    
+    .git:hover p{
+        opacity: 8;
+    }
+        
+    .git:hover img{
+        opacity: 0.17;
+    }
+
+
+    
+
+            
